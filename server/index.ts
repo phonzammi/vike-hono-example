@@ -40,7 +40,4 @@ if (isProduction) {
   });
 }
 
-export default {
-  fetch: app.fetch,
-  port: port
-}
+export default app
