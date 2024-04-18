@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react'
 import vike from 'vike/plugin'
-import devServer from "@hono/vite-dev-server"
+import devServer, { defaultOptions } from "@hono/vite-dev-server"
 import { UserConfig } from 'vite'
 
 const config: UserConfig = {
@@ -10,14 +10,12 @@ const config: UserConfig = {
     devServer({
       entry: "./server/index.ts",
       exclude: [
+        ...defaultOptions.exclude,
         /.*\.ts$/,
         /.*\.tsx?($|\?)/,
         /.*\.(s?css|less)($|\?)/,
         /.*\.(svg|png)($|\?)/,
-        /^\/@.+$/,
-        /^\/favicon\.ico$/,
-        /^\/(public|assets|static)\/.+/,
-        /^\/node_modules\/.*/,
+        /^\/(public|assets)\/.+/,
       ],
       injectClientScript: false,
     }),
