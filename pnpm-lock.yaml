@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@hono/node-server':
-    specifier: ^1.10.0
-    version: 1.10.0
+    specifier: ^1.10.1
+    version: 1.10.1
   eslint:
     specifier: ^8.55.0
     version: 8.57.0
@@ -805,8 +805,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@hono/node-server@1.10.0:
-    resolution: {integrity: sha512-XXFmIT4swUm3gG9yPU/HMAqHAHTP/Wr2mqgJakOFQhbbWipomaLu7ys0h9KrgF9032j18efBYk2aHz2SfgDbTA==}
+  /@hono/node-server@1.10.1:
+    resolution: {integrity: sha512-5BKW25JH5PQKPDkTcIgv3yNUPtOAbnnjFFgWvIxxAY/B/ZNeYjjWoAeDmqhIiCgOAJ3Tauuw+0G+VainhuZRYQ==}
     engines: {node: '>=18.14.1'}
 
   /@hono/vite-dev-server@0.11.0(hono@4.2.5):
@@ -815,7 +815,7 @@ packages:
     peerDependencies:
       hono: '*'
     dependencies:
-      '@hono/node-server': 1.10.0
+      '@hono/node-server': 1.10.1
       hono: 4.2.5
       miniflare: 3.20240405.2
       minimatch: 9.0.4
