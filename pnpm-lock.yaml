@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@hono/node-server':
-    specifier: ^1.10.1
-    version: 1.10.1
+    specifier: ^1.11.0
+    version: 1.11.0
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@hono/vite-dev-server':
-    specifier: ^0.11.0
-    version: 0.11.0(hono@4.2.5)
+    specifier: ^0.11.1
+    version: 0.11.1(hono@4.2.5)
   '@types/node':
     specifier: ^20.12.7
     version: 20.12.7
@@ -805,17 +805,17 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@hono/node-server@1.10.1:
-    resolution: {integrity: sha512-5BKW25JH5PQKPDkTcIgv3yNUPtOAbnnjFFgWvIxxAY/B/ZNeYjjWoAeDmqhIiCgOAJ3Tauuw+0G+VainhuZRYQ==}
+  /@hono/node-server@1.11.0:
+    resolution: {integrity: sha512-TLIJq9TMtD1NEG1mVoqNUn1Ita0qSaB5XboZErjFBcO/GJYXwWY4dVdTi9G0lbxtu0x+hJXDItcLaFHb7rlFTw==}
     engines: {node: '>=18.14.1'}
 
-  /@hono/vite-dev-server@0.11.0(hono@4.2.5):
-    resolution: {integrity: sha512-qFx7lCOtNFM4B7bATrsDvaqTTcjejwvKH0o5lwW34Nqerx/YPXgnEYVCi0uXu9HaapRpD2gs04AzuFZHdZNVRg==}
+  /@hono/vite-dev-server@0.11.1(hono@4.2.5):
+    resolution: {integrity: sha512-maTukjHPH19XVyE9zU7bBFg3WIiiKrJ5sFa3GMDJxJFKn16sAT1X5IIYJgXSGCb5hWiIJRU+sE/ybuIzb6qlBg==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
     dependencies:
-      '@hono/node-server': 1.10.1
+      '@hono/node-server': 1.11.0
       hono: 4.2.5
       miniflare: 3.20240405.2
       minimatch: 9.0.4
@@ -1421,7 +1421,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001611
-      electron-to-chromium: 1.4.744
+      electron-to-chromium: 1.4.745
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -1627,8 +1627,8 @@ packages:
     dependencies:
       esutils: 2.0.3
 
-  /electron-to-chromium@1.4.744:
-    resolution: {integrity: sha512-nAGcF0yeKKfrP13LMFr5U1eghfFSvFLg302VUFzWlcjPOnUYd52yU5x6PBYrujhNbc4jYmZFrGZFK+xasaEzVA==}
+  /electron-to-chromium@1.4.745:
+    resolution: {integrity: sha512-tRbzkaRI5gbUn5DEvF0dV4TQbMZ5CLkWeTAXmpC9IrYT+GE+x76i9p+o3RJ5l9XmdQlI1pPhVtE9uNcJJ0G0EA==}
     dev: true
 
   /es-abstract@1.23.3:
