@@ -4,11 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prod": "npm run lint && npm run build && npm run server:prod",
     "build": "vite build",
-    "server": "node --loader ts-node/esm ./server/index.ts",
-    "server:dev": "npm run server",
-    "server:prod": "cross-env NODE_ENV=production npm run server",
+    "preview": "NODE_ENV=production tsx ./server/index.ts",
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
@@ -21,18 +18,16 @@
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tsx": "^4.7.2",
     "vike": "^0.4.171"
   },
   "devDependencies": {
     "@hono/vite-dev-server": "^0.11.1",
-    "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "cross-env": "^7.0.3",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.10"
   }

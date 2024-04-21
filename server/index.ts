@@ -33,7 +33,7 @@ app.get("*", async (c, next) => {
 })
 
 if (isProduction) {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server listening on http://localhost:${port}`);
   serve({
       fetch: app.fetch,
       port: port
