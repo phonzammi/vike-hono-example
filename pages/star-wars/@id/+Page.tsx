@@ -1,7 +1,7 @@
 export { Page }
 
 import { useData } from '../../../renderer/useData'
-import type { Data } from './+data'
+import type { Data } from './+data.shared'
 
 function Page() {
   const { movie } = useData<Data>()
