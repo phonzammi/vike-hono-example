@@ -9,27 +9,27 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@hono/node-server": "^1.11.1",
+    "@hono/node-server": "^1.11.2",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "hono": "^4.2.8",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "hono": "^4.4.2",
     "node-fetch": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tsx": "^4.7.3",
-    "vike": "^0.4.171"
+    "tsx": "^4.11.0",
+    "vike": "^0.4.172"
   },
   "devDependencies": {
-    "@hono/vite-dev-server": "^0.12.0",
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.3.1",
+    "@hono/vite-dev-server": "^0.12.1",
+    "@types/node": "^20.12.13",
+    "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.7.1",
-    "@typescript-eslint/parser": "^7.7.1",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "@vitejs/plugin-react": "^4.3.0",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10"
+    "vite": "^5.2.12"
   }
 }
