@@ -1,5 +1,3 @@
-[<img src="https://vike.dev/vike-readme.svg" align="right" height="90">](https://vike.dev)
-
 ## Vike with Hono.
 This is an example of integrating Hono with Vite and Vike.
 
@@ -12,11 +10,16 @@ To run this example:
 ```bash
 cd vike-react-hono
 pnpm install
-# To run vite development server
+# Start the Vite development server
 pnpm dev 
-# To build & run production server
+# Build the Vike app for production
+pnpm build
+# Run the app in a production environment
 pnpm prod
 ```
+
+> [!NOTE]
+> The `./server/index.ts` file is not transpiled. If you'd like your server to be transpiled with Vite, you can use [`vike-node`](https://github.com/vikejs/vike-node).
 
 **Read the official documentations of Vike at [_vike.dev_](https://vike.dev).**
 
